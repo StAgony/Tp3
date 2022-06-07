@@ -20,7 +20,6 @@ header {
     display: flex;
     justify-content: flex-start;
     background-color: #810E8D;
-     /* para hacer para movil cambiar el height a porcentaje(creo) */
     height: 9vh;
     width: 98%;
     border-radius: 12px;
@@ -50,7 +49,7 @@ nav {
     font-family: '1';
     font-size: 1.4em;
 }
-a {
+a,p {
     text-decoration: none;
     color: #CBABD3 
     }
@@ -61,19 +60,13 @@ main {
     font-size: 1.1em;
     text-align: center;
 }
-p {
-    color: #CBABD3;
-}
+
 .side {
     background-color:#C92798;
     box-shadow: 0px 8px 20px 34px #C92798;
     -webkit-box-shadow: 0px 8px 20px 34px #C92798;
     -moz-box-shadow: 0px 8px 20px 34px #C92798;
     width: 20vw;
-    margin-top: 0vh;
-    margin-bottom: 0vh;
-    margin-left: 0px;
-    border-left: 0px;
 }
 .inicio {
   display: flex;
@@ -83,7 +76,7 @@ p {
 #foto {
     position: static;
     object-fit: cover;
-    height: 100vh;
+    height: 100%;
     width: 32%;
 }
 .contenido {
@@ -98,13 +91,9 @@ h1,h2 {
 h1 {
     font-size: 5em;
 }
-h2 {
+h2, #resumen {
     text-align: left;
 }
-#resumen{
-    text-align: left;
-}
-
 
 .boton {
     background-color: #C92798;
@@ -122,18 +111,14 @@ h2 {
     margin-top: 30vh;
     font-size: 1.2em;
 }
-#escuchar {
-    text-align: left
-}
 footer {
-    background-color: #1F0326;
+background-color: #1F0326;
 display: block;
 position: absolute;
 left: -1px;
 width: 98.4vw;
 height: 22%;
 }
-
 #pie {
     font-family: '2';
     font-size: 1em;
